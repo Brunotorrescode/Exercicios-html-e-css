@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+<style>
+
+body{
+    background-color: black;
+}
+
+
+h1{
+   text-align: start;
+    color: brown;
+    background-color: black;
+    background-position: 0vmax;
+}
+h2{
+    color: darkred;
+}
+p{
+    color: darkblue;
+    text-align: justify;
+}
+    button{
+        color: blue;
+        border-color: black;
+        background-color: brown;
+    }
+</style>

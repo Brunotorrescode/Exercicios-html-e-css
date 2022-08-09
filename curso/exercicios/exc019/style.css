@@ -1,0 +1,35 @@
+@charset "UTF-8"
+
+body{
+    background-image: linear-gradient(  to left,#62B3FB, #1690FA, #1272C7);
+}
+h1{ color: #001e38;
+
+}
+h1#principal{
+    
+    text-shadow: 5px #001e38 3px white 10px black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #479be6e1;
+    text-align: center;
+
+}
+ h2{
+    color: #003e74b0;
+
+}
+.basico{
+    background-color: #62B3FB;
+    color: aliceblue;
+
+}
+.intermediario{
+    background-color: #1690FA;
+    color: aliceblue;
+
+}
+.avancado{
+    background-color: #001e38;
+    color: aliceblue;
+
+}
