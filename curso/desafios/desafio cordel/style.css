@@ -14,9 +14,9 @@ html, body{
 }
 header{
     
+    background-image: linear-gradient(to bottom, #E0AE4A, #fcb737ce);
     text-align: center;
-    background-color: black;
-    color:white
+    color: rgba(0, 0, 0, 0.486)
     
    
     
@@ -32,12 +32,14 @@ header > p{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: rgba(0, 0, 0, 0.486) ;
     font-weight: bolder;
 }
 a:hover{
-    color: coral;
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.685);
+    color:#533604;
+    transition: 0.5s;
+    
 }
 
 section{
@@ -48,25 +50,41 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section >p{
+    padding-bottom: 2em;
+}
 
 section.normal{
+   
     background-color: white;
     color: black;
    
 }
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.507);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    background-attachment: fixed;
 }
 section.imagem >p{
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.527);
+    text-shadow: 2px 2px 0px black;
     padding: 5px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.39);
 }
-footer{
+section#img01{
+    background-size: cover;
+    background-position: right center;
+    background-image: url('imagens/background001.jpg')
     
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    
+
+
+}
+section#img02{
+    background-size: cover;
+    background-image: url('imagens/background002.jpg');
+
 }
